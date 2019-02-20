@@ -12,3 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+}
+
+.nav-style {
+  text-align: right;
+}
+
+.nav-style li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-style a {
+  text-decoration: none;
+}
+
+.nav-style .active {
+  font-weight: bold;
+  color: chartreuse;
+}
